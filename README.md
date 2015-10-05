@@ -36,7 +36,7 @@ In one word: magic.
 * This is the killer number 1: CoreData is about _shared mutable state_. You don't even need to read any further
 * Killer number 2: it is _not needed_ on iOS *because iOS devices are _client_ devices* and not server devices.
 * There isn't and won't ever be in the foreseable future a single iOS app needing to handle 100s or 1000s of requests!
-* If, despite this, you still think you need some kind of database, then you are thinking wrong. From Microsfot Word and Excel and Powerpoint, to Adobe Photoshop, InDesign, through Apple's iPhoto or Garage Band, the mature software industry has realised that they needed their own file formats for persistence, if only because SQL has no idea about the kind of data typoes those apps support, short of collectiong them all into "blobs" and calling it a day.
+* If, despite this, you still think you need some kind of database, then you are thinking wrong. From Microsfot Word and Excel and Powerpoint, to Adobe Photoshop, InDesign, through Apple's iPhoto or Garage Band, the mature software industry has realised that they needed their own file formats for persistence, if only because SQL has no idea about the kind of data types those apps support, short of collectiong them all into "blobs" and calling it a day.
 * If you still think you need a database now, then you are trying to solve the wrong problem.
 
 ## SwiftyDemo
