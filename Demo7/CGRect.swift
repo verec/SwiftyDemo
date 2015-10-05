@@ -59,3 +59,14 @@ extension CGRect {
     }
 }
 
+extension CGRect {
+
+    func difference(other: CGRect) -> CGRect {
+        /// Q&D hack for demo day ...
+        var rect = self
+        rect.size.width -= other.size.width
+        return rect
+    }
+}
+
+
