@@ -43,7 +43,7 @@ In one word: magic.
 * Is an Objective-C based project whose main logic is in Swift
 * It exhibits a single `rootViewController` (because Apple's framework _requires_ one)
 * It handles rotation as appropriate
-* It lets views _decide_ on the layout of their subviews _as they are designed to be_, and offers a select few <code>CGRect</code> extensions that allows you to create most layouts you can think of with a single line of code in most cases, _without preventing you from going fancy_ whne you need to.
+* It lets views _decide_ on the layout of their subviews _as they are designed to be_, and offers a select few <code>CGRect</code> extensions that allows you to create most layouts you can think of with a single line of code in most cases, _without preventing you from going fancy_ when you need to.
 * It shows cross language access, from ObjC to Swift and fromn Swift to ObjC
 * It offers and shows a Binding system where which `component` talks to which other `component` is at the highest possible level, the level of the policies (or "business logic") _things that change_ leaving the mechanisms _things that do not change but carry the actual work_ as oblivious as possible of any other dependency.
 
