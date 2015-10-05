@@ -47,5 +47,11 @@ In one word: magic.
 * It shows cross language access, from ObjC to Swift and fromn Swift to ObjC
 * It offers and shows a Binding system where which `component` talks to which other `component` is at the highest possible level, the level of the policies (or "business logic") _things that change_ leaving the mechanisms _things that do not change but carry the actual work_ as oblivious as possible of any other dependency.
 
-# Design is hard, Simplicity is hard. It requires a willingness to throw away anything that doesn't have a measurable pay-off _today_.
+## Design is hard, Simplicity is hard. API design is hard. It requires a willingness to throw away anything that doesn't have a measurable pay-off _today_.
+
+## The vast majoriy of us work for iOS application providers, not for iOS framework providers! It is not _our_ job to create and (hell!) maintain _reusable_ software components!
+
+## Our job is to create *usable* products.
+
+## Our job is to write code so simple to understand that it becomes boring to review. "There's no challenge in here" will say the commenters. "Thank you for the compliment" is what we need to be genuinely happy to reply.
 
