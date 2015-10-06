@@ -12,10 +12,11 @@
 		F385ADB31BC14EEA009162AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F385ADB21BC14EEA009162AC /* Assets.xcassets */; };
 		F385ADB61BC14EEA009162AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F385ADB41BC14EEA009162AC /* LaunchScreen.storyboard */; };
 		F385ADBF1BC15077009162AC /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385ADBE1BC15077009162AC /* UI.swift */; settings = {ASSET_TAGS = (); }; };
-		F385ADC11BC15102009162AC /* Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385ADC01BC15102009162AC /* Bindings.swift */; settings = {ASSET_TAGS = (); }; };
+		F385ADC11BC15102009162AC /* Instances.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385ADC01BC15102009162AC /* Instances.swift */; settings = {ASSET_TAGS = (); }; };
 		F385ADC31BC155EE009162AC /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385ADC21BC155EE009162AC /* CGRect.swift */; settings = {ASSET_TAGS = (); }; };
 		F385ADC61BC1583B009162AC /* FunnySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F385ADC51BC1583B009162AC /* FunnySlider.m */; settings = {ASSET_TAGS = (); }; };
 		F385ADC81BC17B02009162AC /* HelloSimplicity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385ADC71BC17B02009162AC /* HelloSimplicity.swift */; settings = {ASSET_TAGS = (); }; };
+		F397DE101BC484AE00243919 /* Wireboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397DE0F1BC484AE00243919 /* Wireboard.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +29,12 @@
 		F385ADB71BC14EEA009162AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F385ADBD1BC15076009162AC /* Demo7-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo7-Bridging-Header.h"; sourceTree = "<group>"; };
 		F385ADBE1BC15077009162AC /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
-		F385ADC01BC15102009162AC /* Bindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindings.swift; sourceTree = "<group>"; };
+		F385ADC01BC15102009162AC /* Instances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instances.swift; sourceTree = "<group>"; };
 		F385ADC21BC155EE009162AC /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		F385ADC41BC1583B009162AC /* FunnySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnySlider.h; sourceTree = "<group>"; };
 		F385ADC51BC1583B009162AC /* FunnySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnySlider.m; sourceTree = "<group>"; };
 		F385ADC71BC17B02009162AC /* HelloSimplicity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloSimplicity.swift; sourceTree = "<group>"; };
+		F397DE0F1BC484AE00243919 /* Wireboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +74,8 @@
 				F385ADA91BC14EEA009162AC /* AppDelegate.h */,
 				F385ADAA1BC14EEA009162AC /* AppDelegate.m */,
 				F385ADBE1BC15077009162AC /* UI.swift */,
-				F385ADC01BC15102009162AC /* Bindings.swift */,
+				F397DE0F1BC484AE00243919 /* Wireboard.swift */,
+				F385ADC01BC15102009162AC /* Instances.swift */,
 				F385ADB21BC14EEA009162AC /* Assets.xcassets */,
 				F385ADB41BC14EEA009162AC /* LaunchScreen.storyboard */,
 				F385ADB71BC14EEA009162AC /* Info.plist */,
@@ -161,11 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F385ADAB1BC14EEA009162AC /* AppDelegate.m in Sources */,
+				F397DE101BC484AE00243919 /* Wireboard.swift in Sources */,
 				F385ADA81BC14EEA009162AC /* main.m in Sources */,
 				F385ADC31BC155EE009162AC /* CGRect.swift in Sources */,
 				F385ADBF1BC15077009162AC /* UI.swift in Sources */,
 				F385ADC81BC17B02009162AC /* HelloSimplicity.swift in Sources */,
-				F385ADC11BC15102009162AC /* Bindings.swift in Sources */,
+				F385ADC11BC15102009162AC /* Instances.swift in Sources */,
 				F385ADC61BC1583B009162AC /* FunnySlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
