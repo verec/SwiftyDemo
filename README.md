@@ -45,7 +45,7 @@ In one word: magic.
 * It handles rotation as appropriate
 * It lets views _decide_ on the layout of their subviews _as views are designed to be_, and offers a select few <code>CGRect</code> extensions that allows you to create most layouts you can think of with a single line of code in most cases, _without preventing you from going fancy_ when you need to.
 * It shows cross language access, from ObjC to Swift and from Swift to ObjC
-* It offers and shows a Binding example where which `component` talks to which other `component` is at the highest possible level, the level of the policies (or "business logic") _things that change_ leaving the mechanisms _things that do not change but carry the actual work_ as oblivious as possible of any other dependency.
+* It offers and shows a binding example of a `Wireboard` where which `component` talks to which other `component` is at the highest possible level, the level of the policies (or "business logic") _things that change_ leaving the mechanisms _things that do not change but carry the actual work_ as oblivious as possible of any other dependency.
 
 #### Design is hard, Simplicity is hard. API design is hard. It requires a willingness to throw away anything that doesn't have a measurable pay-off _today_.
 
