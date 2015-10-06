@@ -12,6 +12,7 @@
 @implementation FunnySlider
 
 - (instancetype) init {
+    
     if ((self = [super init])) {
 
         self.backgroundColor = [UIColor clearColor] ;
@@ -31,8 +32,8 @@
             CGFloat unit = disp / self.bounds.size.width ;
             self.unitValue = unit ;
 
-            if (self.valueChangedListener) {
-                self.valueChangedListener(unit) ;
+            if (self.dragged) {
+                self.dragged(unit) ;
             }
 
         }

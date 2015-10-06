@@ -9,9 +9,9 @@
 @import Foundation ;
 @import UIKit ;
 
-typedef void (^value_changed_t)(CGFloat) ;
+typedef void (^dragged_t)(CGFloat) ;
 
 @interface FunnySlider : UIView
 @property (nonatomic, assign) CGFloat           unitValue ;
-@property (nonatomic, copy) value_changed_t     valueChangedListener ;
+@property (nonatomic, copy) dragged_t           dragged ;
 @end

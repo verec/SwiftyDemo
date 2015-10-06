@@ -15,10 +15,12 @@
 - (BOOL) application: (UIApplication *) application
 didFinishLaunchingWithOptions: (NSDictionary *) launchOptions {
 
-    self.window                         = [Bindings mainWindow] ;
-    self.window.rootViewController      = [Bindings mainController] ;
-    self.window.rootViewController.view = [Bindings mainView] ;
+    self.window                         = [Instances mainWindow] ;
+    self.window.rootViewController      = [Instances mainController] ;
+    self.window.rootViewController.view = [Instances mainView] ;
 
+    [[Instances wireboard] rewire] ;
+    
     [self.window makeKeyAndVisible] ;
     
     return YES ;
